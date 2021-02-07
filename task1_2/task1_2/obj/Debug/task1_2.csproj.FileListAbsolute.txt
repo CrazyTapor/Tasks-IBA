@@ -1,0 +1,21 @@
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\bin\Debug\task1_2.exe.config
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\bin\Debug\task1_2.exe
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\bin\Debug\task1_2.pdb
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.csprojAssemblyReference.cache
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.exe
+C:\Users\User\Desktop\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.pdb
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\bin\Debug\task1_2.exe.config
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\bin\Debug\task1_2.exe
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\bin\Debug\task1_2.pdb
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.csprojAssemblyReference.cache
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.csproj.CoreCompileInputs.cache
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.exe
+C:\Users\naliv\Desktop\IBA\IBA Gomel\Task 1\Task1\task1_2\task1_2\obj\Debug\task1_2.pdb
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\bin\Debug\task1_2.exe.config
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\bin\Debug\task1_2.exe
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\bin\Debug\task1_2.pdb
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\obj\Debug\task1_2.csprojAssemblyReference.cache
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\obj\Debug\task1_2.csproj.CoreCompileInputs.cache
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\obj\Debug\task1_2.exe
+C:\Users\naliv\Desktop\IBA\Taski\Task_1\task1_2\task1_2\obj\Debug\task1_2.pdb
