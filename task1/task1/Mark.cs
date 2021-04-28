@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace task1_2
+namespace Task1_2
 {
     class Mark
     {
