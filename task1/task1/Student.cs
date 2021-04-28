@@ -4,31 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task1_2
+namespace task1_2
 {
     class Student
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public int age { get; set; }
-        public string group { get; set; }
-        public string university { get; set; }
+        private string first_name { get; set; }
+        private string last_name { get; set; }
+        private int age { get; set; }
+        private string group { get; set; }
+        private string university { get; set; }
+        public Student(string n, string m, int a, string p, string k) { first_name = n; last_name = m; age = a; university = p; group = k; }
         public int n = Convert.ToInt32(Console.ReadLine());  //ввод количества оценнок
 
         Mark[] marks = new Mark[20];
         // персоналные данные о студенте
-        public void OwnPerson(string name, out string firstNames, out string lastName, ref int age, ref string university, ref string group)
+        public void ownPerson()
         {
-            int i = name.LastIndexOf(' ');
-            firstNames = name.Substring(0, i);
-            lastName = name.Substring(i + 1);
-            age = 20; university = "Gstu of sohoi"; group = "PM-31";
             Console.WriteLine("STUDENT");
-            Console.WriteLine($" Name: {firstNames} {lastName} Age:{age} \n University: {university}\n Group:{group}");
+            Console.WriteLine($" Name:{first_name} {last_name} Age:{age} \n University: {university}\n Group:{group}");
             Console.WriteLine("\n");
         }
+
+
         //ввод оценок        
-        public void InputMark()
+        public void Mark()
         {
             Console.WriteLine("enter ratings:");
             for (int i = 0; i < n; i++)
@@ -48,7 +47,7 @@ namespace Task1_2
             Console.Clear();
         }
         //ввывод оценнок и предметов
-        public void OutputMark()
+        public void Mark2()
         {
             Console.WriteLine("RATING LIST");
             for (int i = 0; i < n; i++)
@@ -58,14 +57,18 @@ namespace Task1_2
             Console.WriteLine("\n");
         }
         //средний балл
-        public int GetAvgMark(params int[] Mark)
+        public void GetAvgMark()
         {
-            int sum = 0;
-            for (int i = 0; i < n; i++)
-                sum += marks[i].mark;
-            return sum / n;
-        }
 
+            int sum = 0; double average = 0;
+            for (int i = 0; i < n; i++)
+            {
+                sum += marks[i].mark;
+            }
+            average = sum / n;
+            Console.WriteLine($"Average:{average}");
+            Console.WriteLine("\n");
+        }
         //обнуление всех оценнок
         public void ResetAllMarks()
         {
@@ -86,7 +89,8 @@ namespace Task1_2
             {
                 marks[i].Passport();
             }
-        Console.WriteLine("\n");
+            Console.WriteLine("\n");
         }
+
     }
 }

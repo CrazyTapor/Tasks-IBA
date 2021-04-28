@@ -3,30 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-
-namespace Task1_2
+/*Develop a custom class Student containing personal information and array of Marks.
+Mark is a custom class containing name of a subject and its mark. Student class also
+has GetAvgMark(returning average of all marks) and ResetAllMarks(making all student’s marks equal to zero)
+methods, which you need to implement.*/
+namespace task1_2
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
-            string firstName, lastName, university = null, group = null;
-            int age = 0;
             Console.WriteLine("number of ratings:");
-            Student Andrei = new Student();
+            Student Andrei = new Student("Andrei", "Nalivalkin", 19, "Gstu name P.O. Suhoi", "PM-31");
             Console.Clear();
-            Andrei.InputMark();
-            Andrei.OwnPerson("Andrei Nalivalkin", out firstName, out lastName, ref age, ref university, ref group);
-            Andrei.OutputMark();
-            int Average = Andrei.GetAvgMark();
-            Console.WriteLine($"Average score:{Average}");
+            Andrei.Mark();
+            Andrei.ownPerson();
+            Andrei.Mark2();
+            Andrei.GetAvgMark();
             Andrei.ResetAllMarks();
             Console.ReadKey();
         }
+
     }
 }
-
 
 
