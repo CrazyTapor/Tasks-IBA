@@ -1,0 +1,7 @@
+G:\IBA\Task_3\Task_3\obj\Debug\Task_3.csprojAssemblyReference.cache
+G:\IBA\Task_3\Task_3\obj\Debug\Task_3.csproj.CoreCompileInputs.cache
+G:\IBA\Task_3\Task_3\obj\Debug\epam2.exe
+G:\IBA\Task_3\Task_3\obj\Debug\epam2.pdb
+G:\IBA\Task_3\Task_3\bin\Debug\epam2.exe.config
+G:\IBA\Task_3\Task_3\bin\Debug\epam2.exe
+G:\IBA\Task_3\Task_3\bin\Debug\epam2.pdb
